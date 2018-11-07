@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<slideshow>
+	<photo image="homeimages/01.png" duration="5"/>
+	<photo image="homeimages/02.png" duration="5"/>
+	<photo image="homeimages/03.png" duration="5"/>
+	<photo image="homeimages/04.png" duration="5"/>
+	<photo image="homeimages/05.png" duration="5"/>
+	<photo image="homeimages/06.png" duration="5"/>
+</slideshow>

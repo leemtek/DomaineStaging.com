@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<slideshow>
+
+	<photo image="homeowners/01.png" duration="3"/>
+	<photo image="homeowners/02.png" duration="5"/>
+
+	<photo image="homeowners/03.png" duration="3"/>
+	<photo image="homeowners/04.png" duration="5"/>
+
+	<photo image="homeowners/05.png" duration="3"/>
+	<photo image="homeowners/06.png" duration="5"/>
+
+	<photo image="homeowners/06a.png" duration="3"/>
+	<photo image="homeowners/06b.png" duration="5"/>
+
+	<photo image="homeowners/07.png" duration="3"/>
+	<photo image="homeowners/08.png" duration="5"/>
+
+	<photo image="homeowners/09.png" duration="3"/>
+	<photo image="homeowners/10.png" duration="5"/>
+
+	<photo image="homeowners/11.png" duration="3"/>
+	<photo image="homeowners/12.png" duration="5"/>
+
+	<photo image="homeowners/13.png" duration="3"/>
+	<photo image="homeowners/14.png" duration="5"/>
+
+	<photo image="homeowners/15.png" duration="3"/>
+	<photo image="homeowners/16.png" duration="5"/>
+</slideshow>

@@ -1,0 +1,40 @@
+#slider_container { float: left; margin: 0 0 0 -15px; padding: 15px; width:840px;}
+
+.sliderContainer {
+	float: left;
+	width: 840px;
+	height: 335px;
+	overflow: hidden;
+}
+
+.sliderContainer .category{
+	float:left;
+	width:280px;
+	padding-top:120px;
+	min-height:50px;
+}
+
+.SliderNamePrev_2 {
+	width:22px;
+	height:42px;
+	background:url('../images/previous_btn.png') no-repeat;
+	display: block;
+	position: absolute;
+	top: 135px;
+	left: 0;
+	text-decoration: none;
+	cursor:pointer;
+}
+
+.SliderNameNext_2 {
+	width:22px;
+	height:42px;
+	background:url('../images/next_btn.png') no-repeat;
+	display: block;
+	position: absolute;
+	top:135px;
+	left: 878px;
+	text-decoration: none;
+	cursor:pointer;
+}
+

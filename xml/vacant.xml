@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<slideshow>
+	<photo image="vacant/white.jpg" duration="2"/>
+	<photo image="vacant/01.png" duration="4"/>
+	<photo image="vacant/02.png" duration="6"/>
+	<photo image="vacant/white.jpg" duration="2"/>
+	<photo image="vacant/03.png" duration="4"/>
+	<photo image="vacant/04.png" duration="6"/>
+	<photo image="vacant/white.jpg" duration="2"/>
+	<photo image="vacant/05.png" duration="4"/>
+	<photo image="vacant/06.png" duration="6"/>
+	<photo image="vacant/white.jpg" duration="2"/>
+	<photo image="vacant/07.png" duration="4"/>
+	<photo image="vacant/08.png" duration="6"/>
+	<photo image="vacant/white.jpg" duration="2"/>
+	<photo image="vacant/09.png" duration="4"/>
+	<photo image="vacant/10.png" duration="6"/>
+</slideshow>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<slideshow>
+	<photo image="occupied/white.jpg" duration="1"/>
+	<photo image="occupied/01.png" duration="3"/>
+	<photo image="occupied/02.png" duration="5"/>
+	<photo image="occupied/white.jpg" duration="1"/>
+	<photo image="occupied/03.png" duration="3"/>
+	<photo image="occupied/04.png" duration="5"/>
+	<photo image="occupied/white.jpg" duration="1"/>
+	<photo image="occupied/05.png" duration="3"/>
+	<photo image="occupied/06.png" duration="5"/>
+	<photo image="occupied/white.jpg" duration="1"/>
+	<photo image="occupied/07.png" duration="3"/>
+	<photo image="occupied/08.png" duration="5"/>
+	<photo image="occupied/white.jpg" duration="1"/>
+	<photo image="occupied/09.png" duration="3"/>
+	<photo image="occupied/10.png" duration="5"/>
+	<photo image="occupied/white.jpg" duration="1"/>
+	<photo image="occupied/11.png" duration="3"/>
+	<photo image="occupied/12.png" duration="5"/>
+	<photo image="occupied/white.jpg" duration="1"/>
+	<photo image="occupied/13.png" duration="3"/>
+	<photo image="occupied/14.png" duration="5"/>
+	<photo image="occupied/white.jpg" duration="1"/>
+	<photo image="occupied/15.png" duration="3"/>
+	<photo image="occupied/16.png" duration="5"/>
+	<photo image="occupied/white.jpg" duration="1"/>
+	<photo image="occupied/17.png" duration="3"/>
+	<photo image="occupied/18.png" duration="5"/>
+</slideshow>

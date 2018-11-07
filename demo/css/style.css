@@ -1,0 +1,370 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family:"Myriad Pro";
+	src:url('../fonts/MyriadPro-Regular.eot');
+	font-weight:normal;
+}
+@font-face{
+	font-family:"Myriad Pro";
+	src:url('../fonts/MyriadPro-Regular.ttf');
+	font-weight:normal;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+caption, tbody, tfoot, thead {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+img {border:0px;}
+.imagespace {margin:0px 10px 0px 10px;}
+
+body{
+	background:#53284f;
+	font-family:Arial;
+	font-size:14px;
+}
+
+p{
+	margin-bottom:10px;
+}
+h1,h2,h3,h4{ 
+	font-family:"Myriad Pro"; 
+	color:#c75b12;
+	margin-bottom:5px;
+	font-weight:normal;
+}
+
+h2{
+	font-size:24px;
+}
+
+h3{
+	font-size:20px;
+}
+h4{
+	font-size:18px;
+}
+h2.heading{
+	font-size:28px;
+	font-weight:bold;
+}
+#page-wrapper{
+	margin:0 auto;
+	width:1000px;
+	min-height:500px;
+}
+
+/* Header CSS */
+#header{
+	padding-top:20px;
+	min-height:105px;
+}
+#header .logo{
+	float:left;
+	margin-left:50px;
+}
+#header .right-side{
+	float:right;
+	padding-right:45px;
+}
+#header .contact{
+	color:#FFF;
+	margin-top:15px;
+	font-size:14px;
+	line-height:20px;
+}
+#header .contact a{ 
+	color:#FFF;
+	text-decoration:none;
+}
+#header .contact a:hover{
+	color:#fbca03;
+}
+
+/* Navigation CSS */
+#navigation{
+	clear:both;
+	width:1000px;
+	height:44px;
+	background:url('../images/nav_bg.png') repeat-x;
+	padding-top:5px;
+	position:relative;
+	/* Rounded Corners */
+	border-radius: 30px 30px 0px 0px;
+	behavior:url('js/PIE.htc');
+}
+#navigation ul{
+	list-style-type:none;
+	margin-left:25px;
+}
+#navigation ul li{
+	display:block;
+	float:left;
+	position:relative;
+}
+#navigation ul li a{
+	display:block;
+	float:left;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+	padding:5px 15px 5px 15px;
+}
+#navigation ul li a:hover{
+	color:#fbca03;
+}
+#navigation ul li.active a{
+	color:#fbca03;
+}
+#navigation ul div.main
+{	
+	position: absolute;
+	z-index:999;
+	visibility:hidden;
+	width:175px;
+	min-height:10px;
+	padding:0px 0px 5px 0px !important;
+	background:#755372;
+	clear:both;
+	margin:38px 0px 0px 15px;
+}
+#navigation ul div.main a
+{	
+	display:block;
+	width:170px;
+	padding:5px 5px 5px 22px !important;
+	min-height:10px;
+	font-family: 'Arial';
+	overflow:hidden;
+	color:#fff;
+	background:url('../images/li_bg.jpg') repeat-y 8px 0px;
+}
+#navigation ul div.main a.active{
+	color:#fbca03;
+}
+#navigation ul div.main a:hover{
+	color:#fbca03;
+}
+/* Slider CSS */
+#slider{
+	margin:0 auto;
+	width:840px;
+	min-height:120px;
+	margin-top:25px !important;
+}
+#slider .top-padd{
+	padding-top:138px;
+}
+
+/* Contents CSS */
+#contents{
+	width:948px;
+	min-height:300px;
+	overflow:hidden;
+	padding:25px;
+	background:#ffffff;
+	border-left:1px solid #e1bca7;
+	border-right:1px solid #e1bca7;
+}
+#contents .container{
+	clear:both;
+	margin: 0 auto;
+	width:840px;
+	min-height:20px;
+	padding-top:20px;
+	margin-bottom:25px;
+}
+
+#contents .facebook{
+	float:left;
+	width:300px;
+	height:233px;
+}
+#contents .video{
+	float:left;
+	width:330px;
+	height:233px;
+}
+#contents .press-image{
+	float:left;
+	width:245px;
+	min-height:230px;
+	border:1px solid #C60;
+}
+#contents .padd{
+	margin-left:18px;
+	margin-bottom:10px;
+}
+
+#contents .boxes-container{
+	clear:both;
+}
+#contents .image-cont{
+	float:left;
+	margin-right:50px;
+	width:220px;
+}
+#contents .image-des{
+	margin-top:5px;
+}
+
+#contents .staging-info{
+	float:left;
+	width:380px;
+	height:416px;
+	padding:5px 25px 5px 5px;
+	border-right:2px solid #ca6520;
+}
+#contents .success-stories{
+	float:left;
+	width:390px;
+	padding:5px 5px 5px 30px;
+	min-height:416px;
+}
+#staging-info h2{
+	font-family:"Myriad Pro";
+	color:#c75b12;
+	font-size:29px;
+	font-style:italic;
+	margin-bottom:15px;
+}
+#contents .packagescol1{
+	float:left;
+	width:380px;
+	height:530px;
+	padding:5px 25px 5px 5px;
+	border-right:2px solid #ca6520;
+}
+#contents .packagescol2{
+	float:left;
+	width:390px;
+	padding:5px 5px 5px 30px;
+	min-height:530px;
+}
+#packagescol1 h2{
+	font-family:"Myriad Pro";
+	color:#c75b12;
+	font-size:29px;
+	font-style:italic;
+	margin-bottom:15px;
+}
+#contents .container-two-column{
+	margin:0 auto;
+	width:890px;
+	min-height:300px;
+}
+#contents .left-column{
+	float:left;
+	padding-top:25px;
+	width:610px;
+	min-height:250px;
+}
+#contents .two-column{
+	float:left;
+	padding:100px 0px 0px 40px;
+	width:225px;
+	min-height:375px;
+	background:url('../images/flower.jpg') no-repeat 20px 0px;
+}
+#contents .two-column .image-cont{
+	width:608px;
+	min-height:250px;
+}
+#contents .two-column .image-des{
+	clear:both;
+}
+#contents .content{
+	padding-top:30px;
+}
+#contents ul.links{
+	list-style-type:none;
+	margin:15px 0px 80px 15px;
+}
+#contents ul.links li{
+	margin-bottom:5px;
+}
+#contents ul.links li a{
+	font-size:18px;
+	color:#53284f;
+	text-decoration:none;
+}
+#contents ul.links li a:hover{
+	text-decoration:underline;
+}
+#contents .property-assessment{
+	width:200px;
+	padding:15px;
+	min-height:202px;
+	background:#e0c7de url('../images/free-assesment.jpg') repeat-x;
+	border:1px solid #c75b12;
+}
+#contents .assesment-btn{
+	display:block;
+	width:209px;
+	height:75px;
+	text-align:center;
+	color:#ffffff;
+	font-family:"Myriad Pro";
+	font-size:24px;
+	text-align:center;
+	line-height:22px;
+	text-decoration:none;
+	background:url('../images/assesment-btn.jpg') no-repeat;
+	padding-top:14px;
+	margin-left:-5px;
+}
+#contents .txt{
+	text-align:center;
+	font-size:20px;
+	line-height:19px;
+	color:#000000;
+}
+/* Footer CSS */
+#footer{
+	width:959px;
+	height:30px;
+	background:#c75b12;
+	border:1px solid #813c37;
+	position:relative;
+	font-family: 'Arial';
+	font-size:10px;
+	font-weight:normal;
+	color:#FFF;
+	padding:10px 20px 5px 20px;
+	/* Rounded Corners */
+	border-radius: 0px 0px 30px 30px;
+	behavior:url('js/PIE.htc');
+	margin-bottom:20px;
+}
+#footer a{ 
+	color:#FFF;
+	text-decoration:none;
+}
+#footer a:hover{
+	color:#fbca03;
+}
+
+/* Common Classes */
+.clear{
+	clear:both;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.large-fnt{
+	font-size:18px;
+}

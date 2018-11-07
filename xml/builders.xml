@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<slideshow>
+	<photo image="builders/white.jpg" duration="1"/>
+	<photo image="builders/11.png" duration="3"/>
+	<photo image="builders/12.png" duration="5"/>
+	<photo image="builders/white.jpg" duration="2"/>
+	<photo image="builders/13.png" duration="3"/>
+	<photo image="builders/14.png" duration="5"/>
+	<photo image="builders/white.jpg" duration="2"/>
+	<photo image="builders/15.png" duration="3"/>
+	<photo image="builders/16.png" duration="5"/>
+	<photo image="builders/white.jpg" duration="2"/>
+	<photo image="builders/17.png" duration="3"/>
+	<photo image="builders/18.png" duration="5"/>
+	<photo image="builders/white.jpg" duration="2"/>
+	<photo image="builders/09.png" duration="3"/>
+	<photo image="builders/10.png" duration="5"/>
+</slideshow>
