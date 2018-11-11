@@ -58,6 +58,13 @@ body {
 	float:right !important;
 }
 
+/* Global image logos. */
+.sidebar-logo {
+	width: 112px; 
+	height: auto; 
+	margin: 10px 0px 0 44px;
+}
+
 /* Top Corner Containers
 ----------------------------------------------------------------------------------- */
 
