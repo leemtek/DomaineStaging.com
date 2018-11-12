@@ -610,3 +610,28 @@ body {
 	float:left;
 	border:solid #EEAF00 1px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LEEMTEK ADDITIONS */
+#left-staging .video-holder {
+  float: left;
+  margin: 0 20px 30px 0px;
+  width: 402px;
+  height: 305px;
+}
